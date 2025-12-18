@@ -1,4 +1,5 @@
 env*
 others
 outputs/*.pth
-.ipynb_checkpoints/
+outputs/bak
+.ipynb_checkpoints
