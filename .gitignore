@@ -3,3 +3,4 @@ others
 outputs/*.pth
 outputs/bak
 .ipynb_checkpoints
+__pycache__/
