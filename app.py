@@ -49,7 +49,7 @@ Translate **RHEED images ↔ stoichiometry** using a learned shared latent space
 with st.spinner("Checking model weights..."):
     os.makedirs("outputs", exist_ok=True)
     if not os.path.isfile(MODEL_PATH):
-        st.info("Downloading pretrained model weights...")
+        st.info("Downloading pretrained model weights (~200 MB). This may take few minutes depending on your internet speed.")
         urllib.request.urlretrieve(MODEL_URL, MODEL_PATH)
         st.success("Model downloaded successfully.")
     else:
