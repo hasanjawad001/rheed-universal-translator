@@ -14,7 +14,7 @@
 
 Unlike traditional one-way predictors, this project learns a **shared latent representation** that supports both **forward** and **inverse** modeling. The entire workflow is wrapped in a **no-code Streamlit UI**, allowing users to explore predictions without writing any code.
 
-This work demonstrates how learned representations can enable bidirectional inference in thin-film growth, opening pathways for closed-loop and inverse-design workflows in microscopy.
+> **✨ Key idea:** This work demonstrates how learned representations enable **bidirectional inference** in thin-film growth — a critical step toward **closed-loop and inverse-design workflows** in microscopy.
 
 ---
 
