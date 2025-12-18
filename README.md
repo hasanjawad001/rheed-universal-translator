@@ -168,6 +168,12 @@ uv venv
 .\.venv\Scripts\Activate.ps1
 ```
 
+**Command Prompt**
+```cmd
+uv venv
+.venv\Scripts\activate.bat
+```
+
 ### 3️⃣ Install dependencies
 ```bash
 uv pip install -r requirements.txt
