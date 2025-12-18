@@ -161,9 +161,11 @@ source .venv/bin/activate
 ```
 
 **On Windows**
-```bash
+
+**PowerShell**
+```powershell
 uv venv
-.venv\Scripts\activate
+.\.venv\Scripts\Activate.ps1
 ```
 
 ### 3️⃣ Install dependencies
