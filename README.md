@@ -147,12 +147,31 @@ The **application (`app.py`)** provides a fully **no-code interface** for intera
 - **Python**: 3.11.14  
 - **uv**: 0.9.11  
 
-### Install Dependencies
+### 1️⃣ Install `uv` (if not already installed)
+```bash
+pip install uv
+```
+
+### 2️⃣ Create and activate a virtual environment (recommended)
+
+**On macOS / Linux**
+```bash
+uv venv
+source .venv/bin/activate
+```
+
+**On Windows**
+```bash
+uv venv
+.venv\Scripts\activate
+```
+
+### 3️⃣ Install dependencies
 ```bash
 uv pip install -r requirements.txt
 ```
 
-### Run the App
+### 4️⃣ Run the application
 ```bash
 streamlit run app.py
 ```
