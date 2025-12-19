@@ -14,7 +14,7 @@
 
 Unlike traditional one-way predictors, this project learns a **shared latent representation** that supports both **forward** and **inverse** modeling. The entire workflow is wrapped in a **no-code Streamlit UI**, allowing users to explore predictions without writing any code.
 
-> **✨ Key idea:** This work demonstrates how learned representations enable **bidirectional inference** in thin-film growth — a critical step toward **closed-loop and inverse-design workflows** in microscopy.
+> **✨ Key idea:** This work demonstrates bidirectional inference in thin-film growth by jointly learning from **RHEED images** and **XPS-derived stoichiometry** for the **SrTiO₃** material system. By enforcing a shared latent representation, the approach lays the foundation for **closed-loop** and **inverse-design microscopy workflows**, and can be generalized to **arbitrary ABO₃ oxide systems** as more data become available.
 
 ---
 
@@ -100,6 +100,10 @@ The Universal Translator is built around a shared latent-space architecture cons
   - Latent → stoichiometry
 
 This design enables both forward and inverse translation while enforcing self-consistency across modalities.
+
+<p align="center">
+  <img src="assets/model_archi.png" width="700">
+</p>
 
 ---
 
